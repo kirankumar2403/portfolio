@@ -582,7 +582,7 @@ noscript {
     width: 60%;
     height: 100%;
     align-items: flex-start;
-    justify-content: center
+    justify-content: center;
 }
 
 #hello-friend {
@@ -2635,14 +2635,14 @@ footer {
     #name,
     #work {
         font-size: 4.5rem;
-        margin-bottom: 0;
         justify-content: center;
         flex-wrap: wrap
     }
 
     #name {
         gap: 0;
-        letter-spacing: 0
+        letter-spacing: 1px;
+        margin-bottom: 10px
     }
 
     #name .jello {
@@ -2652,11 +2652,16 @@ footer {
 
     #work {
         line-height: 1.1;
-        align-items: center
+        align-items: center;
+        margin-bottom: 0
+    }
+
+    #work {
+        gap: 6px
     }
 
     #work div {
-        margin: 0 4px 0 0;
+        margin: 0 2px 0 0;
         display: flex;
         align-items: center
     }
@@ -2918,13 +2923,13 @@ footer {
     #name,
     #work {
         font-size: 3.8rem;
-        justify-content: center;
-        margin-bottom: 0
+        justify-content: center
     }
 
     #name {
         gap: 0;
-        letter-spacing: -1px
+        letter-spacing: 0px;
+        margin-bottom: 8px
     }
 
     #name .jello {
@@ -2934,11 +2939,13 @@ footer {
 
     #work {
         line-height: 1;
-        align-items: center
+        align-items: center;
+        gap: 4px;
+        margin-bottom: 0
     }
 
     #work div {
-        margin: 0 3px 0 0
+        margin: 0 1px 0 0
     }
 
     #info-para {
@@ -3177,13 +3184,13 @@ footer {
 
     #name,
     #work {
-        justify-content: center;
-        margin-bottom: 0
+        justify-content: center
     }
 
     #name {
         gap: 0;
-        letter-spacing: -1px
+        letter-spacing: 0px;
+        margin-bottom: 8px
     }
 
     #name .jello {
@@ -3193,11 +3200,13 @@ footer {
 
     #work {
         align-items: center;
-        line-height: 1.1
+        line-height: 1.1;
+        gap: 4px;
+        margin-bottom: 0
     }
 
     #work div {
-        margin: 0 2px 0 0
+        margin: 0 1px 0 0
     }
 
     /* Contact Button 500px */
@@ -3333,13 +3342,13 @@ footer {
     #name,
     #work {
         font-size: 3.5rem;
-        justify-content: center;
-        margin-bottom: 0
+        justify-content: center
     }
 
     #name {
         gap: 0;
-        letter-spacing: -1px
+        letter-spacing: 0px;
+        margin-bottom: 6px
     }
 
     #name .jello {
@@ -3349,11 +3358,13 @@ footer {
 
     #work {
         align-items: center;
-        line-height: 1
+        line-height: 1;
+        gap: 3px;
+        margin-bottom: 0
     }
 
     #work div {
-        margin: 0 2px 0 0
+        margin: 0 1px 0 0
     }
 
     /* Contact Button 430px */
@@ -3455,13 +3466,13 @@ footer {
     #name,
     #work {
         font-size: 3.2rem;
-        justify-content: center;
-        margin-bottom: 0
+        justify-content: center
     }
 
     #name {
         gap: 0;
-        letter-spacing: -1px
+        letter-spacing: 0px;
+        margin-bottom: 5px
     }
 
     #name .jello {
@@ -3471,7 +3482,9 @@ footer {
 
     #work {
         align-items: center;
-        line-height: 0.95
+        line-height: 0.95;
+        gap: 2px;
+        margin-bottom: 0
     }
 
     #work div {
@@ -3593,13 +3606,13 @@ footer {
     #name,
     #work {
         font-size: 2.8rem;
-        justify-content: center;
-        margin-bottom: 0
+        justify-content: center
     }
 
     #name {
         gap: 0;
-        letter-spacing: -1px
+        letter-spacing: 0px;
+        margin-bottom: 4px
     }
 
     #name .jello {
@@ -3609,7 +3622,9 @@ footer {
 
     #work {
         align-items: center;
-        line-height: 0.9
+        line-height: 0.9;
+        gap: 2px;
+        margin-bottom: 0
     }
 
     #work div {
