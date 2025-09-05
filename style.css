@@ -2615,7 +2615,7 @@ footer {
 
     /* Landing Section Mobile */
     .landing-page-container {
-        padding: 30px 20px 30px;
+        padding: 30px 20px 15px;
         min-height: 100vh
     }
 
@@ -2675,7 +2675,10 @@ footer {
     }
 
     /* Section Containers Mobile */
-    .about-section-container,
+    .about-section-container {
+        padding: 30px 20px 50px;
+    }
+
     .profile-section-container,
     .skills-section-container,
     .contact-section-container {
@@ -2801,7 +2804,11 @@ footer {
 
     /* Landing Section 300px */
     .landing-page-container {
-        padding: 12px 10px 10px
+        padding: 12px 10px 5px
+    }
+
+    .about-section-container {
+        padding: 12px 10px 20px
     }
 
     .text-content {
@@ -2906,7 +2913,11 @@ footer {
 
     /* Landing Section Extra Small */
     .landing-page-container {
-        padding: 25px 15px 25px
+        padding: 25px 15px 10px
+    }
+
+    .about-section-container {
+        padding: 25px 15px 40px
     }
 
     .text-content {
@@ -3167,7 +3178,11 @@ footer {
     /* Landing Section 500px */
     .landing-page-container {
         height: 85vh;
-        padding: 20px 15px 20px
+        padding: 20px 15px 8px
+    }
+
+    .about-section-container {
+        padding: 20px 15px 35px
     }
 
     .text-content {
@@ -3326,7 +3341,11 @@ footer {
 
     /* Landing Section 430px */
     .landing-page-container {
-        padding: 18px 15px 15px
+        padding: 18px 15px 8px
+    }
+
+    .about-section-container {
+        padding: 18px 15px 30px
     }
 
     .text-content {
@@ -3417,7 +3436,11 @@ footer {
 
     /* Landing Section 375px */
     .landing-page-container {
-        padding: 15px 12px 12px
+        padding: 15px 12px 6px
+    }
+
+    .about-section-container {
+        padding: 15px 12px 25px
     }
 
     .text-content {
